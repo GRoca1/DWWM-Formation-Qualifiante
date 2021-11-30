@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des couleurs</title>
+    <script src="couleur.js" async></script>
+    <style>
+
+body
+{
+    background-color: #d7d5ff;
+    padding: 0px;
+}
+
+#colorbox
+{
+    padding: 15px;
+    margin-top: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(143, 188, 143);
+    border: 3px outset lightgray;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(50px,auto));
+    gap: 15px;
+}
+input[type="button"]
+{
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px outset lightgray;
+    background-color: whitesmoke;
+}
+
+input[type="text"]
+{
+    border: 3px inset lightgray;
+    text-align: center;
+}
+    </style>
+    </head>
+    <body>
+  
+
+    <div id="colorbox">
+    <input type="text" name="txtrouge" id="txtrouge" maxlength="2" value="00" onblur="document.body.style.background=couleur();"/>
+    <input type="text" name="txtvert" id="txtvert" maxlength="2" value="00" onblur="document.body.style.background=couleur();" />
+    <input type="text" name="txtbleu" id="txtbleu" maxlength="2" value="00" onblur="document.body.style.background=couleur();"/>
+    <input type="button" name="btnrouge" id="btnrouge" value="Rouge" onclick="couleurRouge()"/>
+    <input type="button" name="btnvert" id="btnvert" value="Vert" onclick="couleurVert()"/>
+    <input type="button" name="btnbleu" id="btnbleu" value="Bleu" onclick="couleurBleu()"/>
+    </div>
+    </body>
+    
