@@ -1,0 +1,54 @@
+{
+"data":[{
+        "id":1,
+        "titre":"Achat ventes en toute confiance",
+        "accroche":"Entreprise ou particulier, confier nous votre bien, nous vous accompagnons dans la vente de votre bien immobilier."
+        ,"img":"img_slider_modif/fond0.jpg"
+        },{
+        "id":2,
+        "titre":"Une aventure humaine",
+        "accroche":"Rejoignez le réseau de nos Adhérents Propriétaires !"
+        ,"img":"img_slider_modif/fond1.jpg"
+        },{
+        "id":3,
+        "titre":"Consultez nos Offres de logements neufs et anciens!",
+        "accroche":"De nombreuses offres à saisir dans le neuf et l'ancien, villas de charme, maisons individuelles appartements, residences."
+        ,"img":"img_slider_modif/fond2.jpg"
+        },{
+
+	"id" : 4,
+        "titre" : "Construire son projet immobilier",
+        "accroche" : "Vous n'avez pas d'idée sur votre projet immobilier? Vous hésitez entre plusieurs possibilités ? Vous avez un projet, mais vous n'êtes pas sûr qu'il soit réalisable ?"
+        ,"img":"img_slider_modif/fond3.jpg"
+        },{
+        "id" : 5,
+        "titre" : "Préparer sa constrution ",
+        "accroche" : "Un tremplin, des financements pour réussir son projet immobilier "
+        ,"img":"img_slider_modif/fond4.jpg"
+        },{
+        "id" : 6,
+        "titre" : "Se former",
+        "accroche" : "Se former à nos métiers de l'immobilier "
+        ,"img":"img_slider_modif/fond5.jpg"
+        },{
+        "id" : 7,
+        "titre" : "Développer votre insvestissement, votre patrimoine!",
+        "accroche" : "Conseil en investissement locatif, courtage."
+        ,"img":"img_slider_modif/fond6.jpg"
+        },{
+        "id" : 8,
+        "titre" : "Notre Métier c'est la gestion immobilière en Alsace",
+        "accroche" : "Nos solutions de  gestions locative syndic permettent d'assurer la continuité de votre activité locative à court, moyen mais aussi désormais à long terme."
+        ,"img":"img_slider_modif/fond7.jpg"
+        },{
+        "id" : 9,
+        "titre" : "Ma maison et moi",
+        "accroche" : "Pour accelérer votre recherche de logement, achat ou location créer votre compte immoduchateau"
+        ,"img":"img_slider_modif/fond8.jpg"
+        },{
+        "id" : 10,
+        "titre" : "Révéler vos talents",
+        "accroche" : "Solutions de gestion de patrimoine adaptées à votre budget"
+        ,"img":"img_slider_modif/fond9.jpg"
+        }]
+}
